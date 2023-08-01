@@ -1,4 +1,4 @@
-CREATE TABLE Employee_Details (
+CREATE or REPLACE TABLE Employee_Details (
     employee_id NUMBER,
     emp_name VARCHAR2(100),
     salary NUMBER,
