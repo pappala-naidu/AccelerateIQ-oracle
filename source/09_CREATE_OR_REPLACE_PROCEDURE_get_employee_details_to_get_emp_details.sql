@@ -1,4 +1,4 @@
-CREATE OR REPLACE PROCEDURE get_employee_details(
+CREATE PROCEDURE get_employee_details(
     p_employee_id IN NUMBER,
     p_employee_name OUT VARCHAR2,
     p_salary OUT NUMBER,

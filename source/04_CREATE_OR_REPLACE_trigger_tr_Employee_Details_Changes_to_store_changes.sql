@@ -1,4 +1,4 @@
-CREATE OR REPLACE trigger tr_Employee_Details_Changes
+CREATE trigger tr_Employee_Details_Changes
 BEFORE INSERT OR DELETE OR UPDATE ON Employee_Details
 FOR EACH ROW
 ENABLE
